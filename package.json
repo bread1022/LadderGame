@@ -1,0 +1,19 @@
+{
+  "name": "laddergame",
+  "version": "1.0.0",
+  "description": "사다리게임",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bread1022/LadderGame.git"
+  },
+  "author": "NANII",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bread1022/LadderGame/issues"
+  },
+  "homepage": "https://github.com/bread1022/LadderGame#readme"
+}
