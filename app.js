@@ -18,19 +18,18 @@ function printLadder(participants, height) {
     Array(participant).fill().map(() => Math.floor(Math.random() * 2)));
 
   ladder.forEach((steps) => {
-    let randomStep = [];
+    let randomStep = '|';
 
     steps.forEach((step) => {
       if(step === 0) {
-        randomStep.push(' ');
+        randomStep += ' |';
       }
       else {
-        randomStep.push('-');
+        randomStep += '-|';
       }
     });
 
-    const result = '|' + randomStep.join('|') + '|';
-    console.log(result);
+    console.log(randomStep);
   });
 }
 
