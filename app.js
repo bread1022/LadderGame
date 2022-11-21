@@ -27,7 +27,7 @@ function printLadder(participants, height) {
       else {
         randomStep.push('-');
       }
-    })
+    });
 
     const result = '|' + randomStep.join('|') + '|';
     console.log(result);
@@ -35,4 +35,5 @@ function printLadder(participants, height) {
 }
 
 const inputParticipants = argv[2];
+const inputHeight = 4;
 printLadder(inputParticipants, inputHeight);
