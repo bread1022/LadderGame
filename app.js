@@ -35,5 +35,4 @@ function printLadder(participants, height) {
 }
 
 const inputParticipants = argv[2];
-const inputHeight = 4
 printLadder(inputParticipants, inputHeight);
